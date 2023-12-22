@@ -1,4 +1,6 @@
 
+//---------------Array declaration and Initialization--------------
+
 // let arr = [12,34,56,89,98];
 // let arr2 = ["hare","krishna"];
 // let arr3 = [12,"krishna",44,[0,1]];
@@ -24,6 +26,7 @@
 
 // console.log(arr);
 
+//--------------------array using constructor-------------
 
 // let arr = new Array(4);
 // console.log(arr);
@@ -31,6 +34,9 @@
 
 // let arr = new Array(1,3,2,4);
 // console.log(arr);
+
+
+//--------------------------Some Array Method --------------------
 
 // let arr1=[1,2,3];
 // console.log(arr1);
@@ -69,6 +75,8 @@
 // console.log(arr4.includes(4));
 
 
+//---------------Exceptional condition on const variable in case of array -------------
+
 // const arr = [];
 
 // arr.push(20);
@@ -81,6 +89,8 @@
 
 // // arr = [3,4,5] ---it will give error.
 
+
+// -------------------- Object declaration and Initialization----------------
 
 const myObj = {
     name:"Krishna",

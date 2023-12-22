@@ -1,4 +1,6 @@
 
+//---------------- Basic Function ----------------------------
+
 // function printValue(){
 //     let result = (23 * 10 + 23 * 10 + 23 * 10)/10;
 
@@ -23,6 +25,7 @@
 // printValue(23,23,23);
 // printValue(34,34,34);
 
+//-------------------------------Using Default value in function-----------------
 
 // function printValue(a,b,c=0){
 //     let result = (a * 10 + b * 10 + c * 10)/10;
@@ -44,6 +47,7 @@
 
 // myfunc(5,4);
 
+//------------------------Array in Function--------------------------
 
 // function totalOfArray(arr=[]){
 //     let total = 0;
@@ -56,6 +60,7 @@
 // console.log(totalOfArray(arr));
 
 
+// ------------------------- Scoping and let var difference------------------
 
 // let a =20 ;
 // {

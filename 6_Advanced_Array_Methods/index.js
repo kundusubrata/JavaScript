@@ -1,8 +1,10 @@
-
+// ---------------- Basic Function --------------
 const myFunc = function (a, b) {
     console.log(a + b);
 }
 myFunc(3, 4);
+
+// ---------------- Arrow Function and it's example --------------
 
 const myFunc2 = (a, b) => {
     console.log(a * b);
@@ -36,6 +38,8 @@ const result = arr3.find((value, index) => {
 });
 console.log(result);
 
+//--------------------------- filter method ----------------------
+
 const arr4 = [2, 3, 4, 5, 6, 7, 8, 9];
 const result1 = arr4.filter((value, index) => {
     if (value > 6) {
@@ -43,6 +47,8 @@ const result1 = arr4.filter((value, index) => {
     }
 });
 console.log(result1);
+
+// -------------------------- every and some method of array -----------------
 
 const result2 = arr4.every((value,index)=>{
     if(value>1){    // it will return true if it is greter than 3 or 2 then it will false.
@@ -56,12 +62,14 @@ const result3 = arr4.some((value,index)=>{
     }
 })
 
+// ------------------------ For-of loop -----------------------
 
 for(let value of arr4){
     value += 3;
     console.log(value);
 }
 
+// ------------------------- For-each looop---------------------
 
 let totalSum = 0;
 arr4.forEach((value,index)=>{
@@ -69,12 +77,14 @@ arr4.forEach((value,index)=>{
 })
 console.log(value);
 
+// ------------------------- Map method ---------------------------
 
 let totalSum2 = 0;
 const result4 = arr4.map((value,index)=>{
     return value+20;
 }); 
 
+// ------------------------ Reduce method -----------------------------
 
 const result5 = arr4.reduce((previousValue,value,index)=>{
     return previousValue+value;

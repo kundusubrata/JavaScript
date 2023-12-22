@@ -1,4 +1,4 @@
-
+//----------Type conversion and cheking the type------------
 
 // let x = 9;
 // console.log(x);
@@ -11,7 +11,7 @@
 // console.log(typeof x);
 
 
-
+//------------------------Some String method ------------------------
 
 // let s = "my name is krishna";
 // console.log("hello");
@@ -35,6 +35,8 @@
 // console.log(s.substring(3,4));
 // console.log(s.substr(3,4));
 
+
+//-----------DOM Manipulation on heading----------
 
 let s = "my name is Krishna";
 

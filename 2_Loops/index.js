@@ -1,9 +1,13 @@
+// ---------------Basic for Loop -----------
 
 // let x;
 
 // for( x=0;x<10;x++){
 //     console.log(x);
 // }
+
+
+// ------------------Example of increment and decrement Operator -------------
 
 // let i = 0 ;
 
@@ -23,12 +27,15 @@
 // }
 
 
+//----------------While loop ---------------
+
 let i = 0;
 while(i<10){
     console.log(i);
     ++i;
 }
 
+// ---------------------Do While Loop----------------
 
 let m = 0;
 do{
