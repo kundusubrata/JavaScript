@@ -62,14 +62,14 @@
 
 
 // let arr4 = [0,1,2,3,4,5,6,7,8,9,10];
-// arr4.splice(0,1);
+// arr4.splice(0,1); // remove element in array
 // console.log(arr4);
 // arr4.splice(1,2);
 // console.log(arr4);
 // arr4.reverse();
 // console.log(arr4);
 
-// let newArray = arr4.slice(1,5);
+// let newArray = arr4.slice(1,5); // return a shallow copy 
 // console.log(arr4)
 // console.log(newArray);
 // console.log(arr4.includes(4));

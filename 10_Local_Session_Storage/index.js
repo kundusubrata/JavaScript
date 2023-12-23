@@ -2,12 +2,13 @@ const input = document.getElementById("myInput");
 const btn = document.getElementById("myBtn");
 const deleteBtn = document.getElementById("delete");
 
+// --------------------- Session Storage(one session means that tab) -----------------
+
 const btnClick = () =>{
     // alert("clicked");
     // alert(input.value);
     sessionStorage.setItem("key1",input.value);
 };
-
 btn.addEventListener("click",btnClick);
 deleteBtn.addEventListener("click",()=>{
     console.log(sessionStorage.key(0));
@@ -23,6 +24,7 @@ if(sessionStorage.getItem("key1")){
 }
 
 
+// ----------------------- Local Storage (Permanently ) -------------------------
 
 const btnClick2 = () =>{
     localStorage.setItem("key1",input.value);
@@ -38,6 +40,8 @@ if(localStorage.getItem("key1")){
     alert(localStorage.getItem("key1"));
 }
 
+
+// ------------------ Local Storage by using JSON format ----------------------
 
 
 const btnClick3 = () =>{

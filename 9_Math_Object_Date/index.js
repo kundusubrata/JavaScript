@@ -6,14 +6,14 @@ console.log(Math.floor(4.4));
 console.log(Math.ceil(4.8));
 console.log(Math.ceil(4.4));
 console.log(Math.trunc(4.123));
-console.log(Math.trunc(8.87123));
+console.log(Math.trunc(8.87123)); // it cut the all decimal point
 console.log(Math.sign(123));
 console.log(Math.sign(-123));
 console.log(Math.pow(2,10));
 console.log(Math.sqrt(25));
 console.log(Math.sqrt(625));
 console.log(Math.abs(5));
-console.log(Math.abs(-5));
+console.log(Math.abs(-5)); // absolute value
 console.log(Math.sin(90));  // ---> 90 is radian format
 console.log(Math.sin(90*Math.PI)/180); // ---> you will get 1 answer
 console.log(Math.tan(90*Math.PI)/180);

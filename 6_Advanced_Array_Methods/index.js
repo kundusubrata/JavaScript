@@ -12,6 +12,7 @@ const myFunc2 = (a, b) => {
 myFunc2(2, 5);
 
 
+//  ------------------ Find Method (Only return one value) --------------
 
 const arr = [2, 3, 4, 5, 6, 7, 8, 9];
 const myFunc3 = (value, index) => {
@@ -38,7 +39,7 @@ const result = arr3.find((value, index) => {
 });
 console.log(result);
 
-//--------------------------- filter method ----------------------
+//--------------------------- filter method (return as an array) ----------------------
 
 const arr4 = [2, 3, 4, 5, 6, 7, 8, 9];
 const result1 = arr4.filter((value, index) => {
