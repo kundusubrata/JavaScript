@@ -22,8 +22,8 @@ navigator.geolocation.getCurrentPosition((d) => {
 console.log(history);
 
 const back = () =>{
-    // history.back();
-    history.forward();
+    // history.back(); // this is back option for browser.
+    history.forward();  // In this option you can go with forward similar work as our browser lefside left arrow key and right arrow key.
 }
 back = onclick();
 

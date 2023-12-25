@@ -46,7 +46,7 @@ class Myclass5{
     };
 }
 const obj4 = new Myclass5(23,34);
-obj2.print();
+obj4.print();
 console.log(obj4);
 
 //-------------------- Private variable in class----------------------
@@ -115,7 +115,7 @@ console.log(obj6);
 
 
 
-const  class2 =class Myclass7{
+const  class2 = class Myclass7{
     #a = 32;
     #b = 43;
     constructor(value1,value2){

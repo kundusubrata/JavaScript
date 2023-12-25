@@ -30,7 +30,7 @@ addEventListener("contextmenu", (e) => {
     e.preventDefault();
     btn.style.filter = "blur(10px)";
 });
-const myFunc = addEventListener("click", () => {
+const myFunc = addEventListener("click", (e) => {
     console.log(e.clientX);
     console.log(e.clientY);
 });
